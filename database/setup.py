@@ -1,4 +1,4 @@
-from .connection import get_db_connection
+from database.connection import get_db_connection
 
 def create_tables():
     conn = get_db_connection()

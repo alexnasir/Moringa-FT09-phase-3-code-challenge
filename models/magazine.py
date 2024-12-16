@@ -10,7 +10,7 @@ class Magazine:
          
         self._id = id
         self.name = name
-        self._category = category 
+        self._category = category  
 
     @property
     def id(self):
