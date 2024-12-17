@@ -21,7 +21,7 @@ def main():
 
 
     '''
-        The following is just for testing purposes, 
+        The following is just for testing purposes,
         you can modify it to meet the requirements of your implmentation.
     '''
 
@@ -39,7 +39,7 @@ def main():
 
     conn.commit()
 
-    # Query the database for inserted records. 
+    # Query the database for inserted records.
     # The following fetch functionality should probably be in their respective models
 
     cursor.execute('SELECT * FROM magazines')
